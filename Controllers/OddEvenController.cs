@@ -1,5 +1,5 @@
 // Jasmine Leek
-// 26oct2022
+// 27oct2022
 // Odd or Even - Endpoints
 // this is a webapi that determines if a number is odd or even through url input; took input from Jeremy re negative numbers, added Math.Abs 
 // peer review: Jeremy Lapham: Works great gives me the right answers. But with negative odd numbers nothing shows up 
@@ -35,7 +35,7 @@ public class OddEvenController : ControllerBase
                 return $"{number1} is an odd number.";
             }
         }
-        return "";
+        return "that's not a num, fren. Try again!";
 
     }
 }
